@@ -1,0 +1,345 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Nav-bar styles */
+
+.nav-bar {
+    margin: 8px;
+}
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.burger-line {
+    width: 20px;
+    height: 1px;
+    background-color: black;
+    margin-top: 2px;
+    justify-content: center;
+}
+
+.logo {
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    width: 40%;
+}
+
+/* Introducing Styles */
+
+.feature-product {
+    background-image: url(img/menstrual-hero_mobile.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 390px;
+    text-align: center;
+    position: relative;
+}
+
+.feature-heading {
+    padding-top: 20px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: -1px;
+}
+
+.feature-body {
+    margin: 5px 30px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.feature-sub-body {
+    margin-top: 20px;
+    font-size: 12px;
+    margin: 15px 60px;
+}
+
+.shop-btn {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+    background-color: rgb(248, 130, 83);
+    color: whitesmoke;
+    text-transform: capitalize;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+
+/* Found the best care style   */
+
+.about-bamboo {
+    background-image: url(img/bamboo_mobile.jpg) ;
+    background-size: cover;
+    height: 270px;
+    margin: 10px;
+    padding: 40px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.bamboo-heading {
+    font-size: 20px;
+    line-height: 1;
+}
+.bamboo-para {
+    margin-top: 20px;
+    font-size:12px;
+}
+
+/* Plastic Styles */
+
+.plastic-solution {
+    background: url(img/pad_detail_mobile.jpg);
+    background-size: cover;
+    height: 270px;
+    margin: 10px;
+    padding-top: 50px;
+    padding-left: 30px;
+}
+
+.plastic-heading, .plastic-para {
+    width: 60%;
+    font-size: 20px;
+}
+
+.plastic-para {
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+/* Design Styles */
+
+.design-for-body {
+    background-image: url(img/pad_in_hand_mobile.jpg);
+    background-position-y: -50px;
+    background-size: cover;
+    height: 300px;
+    margin: 10px;
+    padding: 30px 50px;
+    text-align: center;
+}
+
+.design-for-body-heading {
+    font-size: 20px;
+}
+
+.design-for-body-para {
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+/* colleciton */
+.collection-container {
+    margin-bottom: 100px;
+}
+.collection-heading {
+    text-align: center;
+    margin: 50px auto;
+    font-weight: lighter;
+    font-size: 18px;
+    letter-spacing: -2px;
+    text-transform: uppercase;
+}
+
+.product {
+    margin: 10px;
+}
+
+.product-img {
+    width: 100%;
+    height: auto;
+}
+
+.product-name {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.product-price {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+
+/* New to PUBLIC GOODS Styles */
+
+.new-to-public-goods {
+    background-image: url(img/new-to-public-goods_mobile.jpg);
+    background-position-y: -50px;
+    background-size: cover;
+    height: 460px;
+    color: black;
+    text-align:center;
+    padding: 30px 20px 0px 20px;
+
+}
+
+.new-heading {
+    font-size: 23px;
+}
+
+.new-para {
+    margin-top: 30px;
+    font-size: 11px;
+}
+
+/* Footer Styles */
+
+.footer-container {
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.connect-with-us {
+    padding: 20px;
+}
+
+.connect-heading {
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+.email-form {
+    border: 1px solid whitesmoke;
+    display: flex;
+    height: 30px;
+}
+
+.email-form #email {
+    border-style: none;
+    background-color: transparent;
+    color: whitesmoke;
+}
+
+.email-form #submit-btn {
+    border-style: none;
+    background-color: whitesmoke;
+    width: 100%;
+    font-size: 8px;
+    font-weight: bold;
+}
+
+.email-agree-para {
+    width: 60%;
+    margin:15px auto;
+    font-size: 8px;
+}
+
+
+.footer-nav {
+    margin: 10px;
+}
+
+.footer-links {
+    display: flex;
+    list-style: none;
+    font-size: 10px;
+    text-transform: capitalize;
+    justify-content: space-evenly;
+    color: gray;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 20px;
+}
+
+.icons img {
+    margin: 5px;
+    width:20px;
+    height: 20px;
+    filter: grayscale(50%);
+}
+
+.copy-right {
+    font-size: 10px;
+    padding: 20px;
+}
+
+/* Media Query for Desktop Version */
+
+@media only screen and (min-width: 600px) {
+    .feature-product {
+        background-image: url(img/menstraul-hero_desktop.jpg);
+        text-align: left;
+        height: 260px;
+    }
+    .feature-heading,.feature-body, .feature-sub-body{
+        padding-left: 50px;
+    }
+    
+    .feature-body {
+        width: 30%;
+        font-size: 16px;
+        font-weight: bold;
+        margin: 0;
+        margin-top: 10px;
+    }
+    
+    .feature-sub-body {
+        width: 30%;
+        margin: 0;
+        margin-top: 20px;
+    }
+    
+    .shop-btn {
+        position: relative;
+        bottom: 0;
+        top: 10px;
+        left: 50px;
+        transform: translateX(0);
+    }
+    
+
+    .about-bamboo {
+        background-image: url(img/bamboo_desktop.jpg) ;
+    }
+    
+    .bamboo-heading,.bamboo-para{
+        width: 50%;
+       margin: 40px auto;
+    }
+    
+    /* Plastic Styles */
+
+    .plastic-design-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .plastic-solution {
+        background: url(img/pad_detail_desktop.jpg);
+    }
+    
+    
+    .design-for-body {
+        background-image: url(img/pad_in_hand_desktop.jpg);
+        background-position-y: 0;
+        height: 270px;
+    }
+
+    .collection-container {
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+    }
+
+    .new-to-public-goods {
+        background-image: url(img/new-to-public-goods_desktop.jpg);
+        background-position-y: 0px;
+    }
+  }
