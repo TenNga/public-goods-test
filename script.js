@@ -18,6 +18,8 @@ window.addEventListener('DOMContentLoaded', () => {
     const checkIfUserClickedClaimBefore = () => {
         if(window.localStorage.getItem('claimStatus')){
             closePopup();
+        }else {
+            popupAfterFiveSecond();
         }
 
     }
@@ -44,6 +46,5 @@ window.addEventListener('DOMContentLoaded', () => {
         closePopup();
     }
 
-popupAfterFiveSecond();
 checkIfUserClickedClaimBefore();
 });
