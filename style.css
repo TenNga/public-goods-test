@@ -272,7 +272,6 @@
 }
 
 #popup {
-    display: block;
     width: 50%;
     background-color: rgb(228, 131, 131);
     text-align: center;
@@ -282,11 +281,13 @@
     left: 50vw;
     margin-left: -25vw;
     margin-top: -25vh;
+    display: none;
 }
 
 #popup p{
     margin-top: 30px;
     margin-bottom: 30px;
+    
 }
 
 #popup #claim-btn {

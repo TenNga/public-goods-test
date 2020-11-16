@@ -28,7 +28,7 @@ window.addEventListener('DOMContentLoaded', () => {
     const popupAfterFiveSecond = () => {
         const popUp = document.querySelector('#popup')
         setTimeout(() => {
-            console.log("heeloo")
+            popUp.style.display = "block";
         }, 5000);
     }
 
