@@ -271,6 +271,47 @@
     padding: 20px;
 }
 
+#popup {
+    display: block;
+    width: 50%;
+    background-color: rgb(228, 131, 131);
+    text-align: center;
+    color: whitesmoke;
+    position: absolute;
+    top: 50vh;
+    left: 50vw;
+    margin-left: -25vw;
+    margin-top: -25vh;
+}
+
+#popup p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#popup #claim-btn {
+    margin-bottom: 20px;
+    width: 200px;
+    height: 30px;
+    color:  rgb(228, 131, 131);
+    border: none;
+}
+
+#popup h1 {
+    padding-top: 30px;
+    font-size: 30px;
+}
+
+#popup #close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.popup-toggle {
+    display: none;
+}
+
 /* Media Query for Desktop Version */
 
 @media only screen and (min-width: 600px) {
