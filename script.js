@@ -7,6 +7,7 @@ const CLICK_STATUS = false;
 window.addEventListener('DOMContentLoaded', () => {
 
     //helper function
+    
     const closePopup = () => {
         const popUp = document.querySelector('#popup');
             popUp.style.display = "none";
@@ -22,6 +23,8 @@ window.addEventListener('DOMContentLoaded', () => {
     }
 
     //add animation on ease-in and out 
+    /* Didn't have enought time for animation but I plan to make animation and use JS 
+    to add the css after 5second*/
     const popupAfterFiveSecond = () => {
         const popUp = document.querySelector('#popup')
         setTimeout(() => {
